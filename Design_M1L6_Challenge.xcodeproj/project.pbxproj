@@ -11,6 +11,10 @@
 		F1454C192AB8099000AD4B38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1454C182AB8099000AD4B38 /* ContentView.swift */; };
 		F1454C1B2AB8099100AD4B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1454C1A2AB8099100AD4B38 /* Assets.xcassets */; };
 		F1454C1E2AB8099100AD4B38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1454C1D2AB8099100AD4B38 /* Preview Assets.xcassets */; };
+		F1454C252AB80DA300AD4B38 /* CustomButtonStyle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1454C242AB80DA200AD4B38 /* CustomButtonStyle1.swift */; };
+		F1D167D22AC5251500BE3279 /* CustomButtonStyle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D167D12AC5251500BE3279 /* CustomButtonStyle2.swift */; };
+		F1D167D42AC68AE300BE3279 /* LineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D167D32AC68AE300BE3279 /* LineButtonStyle.swift */; };
+		F1D167D62AC68E7C00BE3279 /* GhostButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D167D52AC68E7C00BE3279 /* GhostButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F1454C182AB8099000AD4B38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1454C1A2AB8099100AD4B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1454C1D2AB8099100AD4B38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1454C242AB80DA200AD4B38 /* CustomButtonStyle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle1.swift; sourceTree = "<group>"; };
+		F1D167D12AC5251500BE3279 /* CustomButtonStyle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle2.swift; sourceTree = "<group>"; };
+		F1D167D32AC68AE300BE3279 /* LineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineButtonStyle.swift; sourceTree = "<group>"; };
+		F1D167D52AC68E7C00BE3279 /* GhostButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				F1454C182AB8099000AD4B38 /* ContentView.swift */,
 				F1454C1A2AB8099100AD4B38 /* Assets.xcassets */,
 				F1454C1C2AB8099100AD4B38 /* Preview Content */,
+				F1454C242AB80DA200AD4B38 /* CustomButtonStyle1.swift */,
+				F1D167D12AC5251500BE3279 /* CustomButtonStyle2.swift */,
+				F1D167D32AC68AE300BE3279 /* LineButtonStyle.swift */,
+				F1D167D52AC68E7C00BE3279 /* GhostButtonStyle.swift */,
 			);
 			path = Design_M1L6_Challenge;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D167D42AC68AE300BE3279 /* LineButtonStyle.swift in Sources */,
+				F1454C252AB80DA300AD4B38 /* CustomButtonStyle1.swift in Sources */,
+				F1D167D22AC5251500BE3279 /* CustomButtonStyle2.swift in Sources */,
 				F1454C192AB8099000AD4B38 /* ContentView.swift in Sources */,
 				F1454C172AB8099000AD4B38 /* Design_M1L6_ChallengeApp.swift in Sources */,
+				F1D167D62AC68E7C00BE3279 /* GhostButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

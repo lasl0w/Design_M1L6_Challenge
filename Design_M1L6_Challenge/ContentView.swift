@@ -10,12 +10,47 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Button(action: {print("first button")},
+                   label: {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 3)
+                        .stroke(Color.black, lineWidth: 3)
+                        .frame(height: 44)
+                        .foregroundColor(.white)
+                        
+                    HStack {
+                        Image(systemName: "envelope")
+                        Text("Contact")
+                            
+                    }
+                    .foregroundColor(.black )
+
+                }
+                .padding()
+            })
+            
+            Button("Contact") {
+                print("custom contact")
+            }
+            .buttonStyle(customButtonStyle1())
+            
+            Button("Ghost Button") {
+                print("ghost button")
+            }
+            .buttonStyle(CustomButtonStyle2())
+            
+            Button("Contact") {
+                print("Chris line button")
+            }
+            .buttonStyle(LineButtonStyle(symbol: "envelope"))
+            
+            Button("Ghost 2") {
+                print("Ghost 2")
+            }
+            .buttonStyle(GhostButtonStyle())
         }
-        .padding()
+      
     }
 }
 
